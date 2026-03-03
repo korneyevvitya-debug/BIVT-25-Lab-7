@@ -13,7 +13,7 @@ namespace Lab7.Purple
             //Свойства
             public string Name => _name;
             public string Surname => _surname;
-            public double[] Coefs => _coefs;
+            public double[] Coefs => _coefs.ToArray();
             public int[,] Marks
             {
                 get
